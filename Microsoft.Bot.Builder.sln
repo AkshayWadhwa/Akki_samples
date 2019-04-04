@@ -22,8 +22,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Bot.Builder.AI.Luis", "libraries\Microsoft.Bot.Builder.AI.LUIS\Microsoft.Bot.Builder.AI.Luis.csproj", "{67AA3C00-E2C5-4D13-BA5E-72EB0E5B8DAA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Bot.Builder.AI.Luis.Tests", "tests\Microsoft.Bot.Builder.AI.LUIS.Tests\Microsoft.Bot.Builder.AI.Luis.Tests.csproj", "{7BCEBDC1-D57F-4717-9B15-4FACD5473489}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Bot.Builder.Integration.AspNet.WebApi", "libraries\integration\Microsoft.Bot.Builder.Integration.AspNet.WebApi\Microsoft.Bot.Builder.Integration.AspNet.WebApi.csproj", "{BD0B82EF-1601-4E87-B78A-B43DE7EB36B0}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microsoft.Bot.Builder.Integration.AspNet.Core", "libraries\integration\Microsoft.Bot.Builder.Integration.AspNet.Core\Microsoft.Bot.Builder.Integration.AspNet.Core.csproj", "{053BD8B8-B5C1-4C45-81D4-C9BA8D5B3CE2}"
@@ -138,14 +136,6 @@ Global
 		{67AA3C00-E2C5-4D13-BA5E-72EB0E5B8DAA}.Documentation|Any CPU.Build.0 = Documentation|Any CPU
 		{67AA3C00-E2C5-4D13-BA5E-72EB0E5B8DAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67AA3C00-E2C5-4D13-BA5E-72EB0E5B8DAA}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Debug - NuGet Packages|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Debug - NuGet Packages|Any CPU.Build.0 = Debug|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Documentation|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Documentation|Any CPU.Build.0 = Debug|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BD0B82EF-1601-4E87-B78A-B43DE7EB36B0}.Debug - NuGet Packages|Any CPU.ActiveCfg = Debug - NuGet Packages|Any CPU
 		{BD0B82EF-1601-4E87-B78A-B43DE7EB36B0}.Debug - NuGet Packages|Any CPU.Build.0 = Debug - NuGet Packages|Any CPU
 		{BD0B82EF-1601-4E87-B78A-B43DE7EB36B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -342,7 +332,6 @@ Global
 		{BF414C86-DB3B-4022-9B29-DCE8AA954C12} = {AD743B78-D61F-4FBF-B620-FA83CE599A50}
 		{276EBE79-A13A-46BD-A566-B01DC0477A9B} = {4269F3C3-6B42-419B-B64A-3E6DC0F1574A}
 		{67AA3C00-E2C5-4D13-BA5E-72EB0E5B8DAA} = {763168FA-A590-482C-84D8-2922F7ADB1A2}
-		{7BCEBDC1-D57F-4717-9B15-4FACD5473489} = {AD743B78-D61F-4FBF-B620-FA83CE599A50}
 		{BD0B82EF-1601-4E87-B78A-B43DE7EB36B0} = {276EBE79-A13A-46BD-A566-B01DC0477A9B}
 		{053BD8B8-B5C1-4C45-81D4-C9BA8D5B3CE2} = {276EBE79-A13A-46BD-A566-B01DC0477A9B}
 		{EED5F0D3-6F00-4ED1-9108-5ADCB10A3734} = {4269F3C3-6B42-419B-B64A-3E6DC0F1574A}
