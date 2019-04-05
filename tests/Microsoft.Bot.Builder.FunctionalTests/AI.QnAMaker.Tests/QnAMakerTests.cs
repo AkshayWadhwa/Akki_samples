@@ -1048,7 +1048,7 @@ namespace Microsoft.Bot.Builder.FunctionalTests
 
         private Stream GetResponse(string fileName)
         {
-            var path = Path.Combine(Environment.CurrentDirectory, "QnATestData", fileName);
+            var path = Path.Combine(Environment.CurrentDirectory, "AI.QnAMaker.Tests", "QnATestData", fileName);
             return File.OpenRead(path);
         }
 
